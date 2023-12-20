@@ -10,9 +10,6 @@ async function main () {
   "appium:appActivity": "com.saucelabs.mydemoapp.android.view.activities.SplashActivity",
   "appium:ensureWebviewsHavePages": true,
   "appium:nativeWebScreenshot": true,
-  "sauce:options": {
-    "name": "Appium Desktop Session -- Dec 20, 2023 11:43 AM"
-  },
   "appium:newCommandTimeout": 3600,
   "appium:connectHardwareKeyboard": true
 }
