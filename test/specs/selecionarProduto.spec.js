@@ -30,7 +30,7 @@ async function main () {
   const el3 = await driver.$("id:com.saucelabs.mydemoapp.android:id/priceTV");
   await el3.click();
   
-  // Teste Github 2
+  // Teste Github 3
   await driver.touchAction([
     { action: 'press', x: 496, y: 1643 },
     { action: 'moveTo', x: 473, y: 605 },
