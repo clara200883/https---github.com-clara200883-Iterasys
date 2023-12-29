@@ -20,7 +20,7 @@ async function main () {
     path: "/wd/hub",
     capabilities: caps
   });
-  
+
   let packageName = await driver.executeScript("mobile: getCurrentPackage");
   let sessionDetails = await driver.getSession();
   const el1 = await driver.$("accessibility id:Sauce Lab Back Packs");
@@ -30,6 +30,7 @@ async function main () {
   const el3 = await driver.$("id:com.saucelabs.mydemoapp.android:id/priceTV");
   await el3.click();
   
+  // Teste Github
   await driver.touchAction([
     { action: 'press', x: 496, y: 1643 },
     { action: 'moveTo', x: 473, y: 605 },
