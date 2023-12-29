@@ -20,6 +20,7 @@ async function main () {
     path: "/wd/hub",
     capabilities: caps
   });
+  
   let packageName = await driver.executeScript("mobile: getCurrentPackage");
   let sessionDetails = await driver.getSession();
   const el1 = await driver.$("accessibility id:Sauce Lab Back Packs");
